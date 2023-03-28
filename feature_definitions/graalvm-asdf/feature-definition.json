@@ -1,6 +1,6 @@
 {
     "id": "graalvm-asdf",
-    "version": "2.0.8",
+    "version": "2.0.9",
     "name": "GraalVM (via asdf)",
     "documentationURL": "http://github.com/devcontainers-contrib/features/tree/main/src/graalvm-asdf",
     "description": "GraalVM is a high-performance JDK designed to accelerate Java application performance while consuming fewer resources.",
@@ -19,7 +19,7 @@
     ],
     "dependencies": [
         {
-            "feature": "ghcr.io/devcontainers-contrib/features/asdf-package:1.0.3",
+            "feature": "ghcr.io/devcontainers-contrib/features/asdf-package:1.0.5",
             "options": {
                 "plugin": "graalvm",
                 "version": "$options.version"
